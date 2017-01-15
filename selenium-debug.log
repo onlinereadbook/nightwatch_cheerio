@@ -1,0 +1,27 @@
+23:41:13.659 INFO - Launching a standalone Selenium Server
+23:41:13.705 INFO - Java: Oracle Corporation 25.25-b02
+23:41:13.705 INFO - OS: Mac OS X 10.12.2 x86_64
+23:41:13.722 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+23:41:13.833 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+23:41:13.834 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+23:41:13.834 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:41:13.834 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+23:41:13.837 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+23:41:13.838 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+23:41:13.954 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:41:13.954 INFO - Selenium Server is up and running
+23:41:14.448 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Main / Main, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+23:41:14.460 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Main / Main, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 48635
+Only local connections are allowed.
+23:41:15.938 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Main / Main, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+23:41:15.956 INFO - Executing: [get: http://www.ipeen.com.tw/search/taiwan/000/0-100-0-0/])
+23:41:21.746 INFO - Done: [get: http://www.ipeen.com.tw/search/taiwan/000/0-100-0-0/]
+23:41:21.756 INFO - Executing: [find elements: By.cssSelector: body])
+23:41:21.803 INFO - Done: [find elements: By.cssSelector: body]
+23:41:21.818 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (67b49d2bb556fe4ab49b469348d540da)] -> css selector: body]])
+23:41:21.838 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (67b49d2bb556fe4ab49b469348d540da)] -> css selector: body]]
+23:41:21.847 INFO - Executing: [get page source])
+23:41:21.905 INFO - Done: [get page source]
